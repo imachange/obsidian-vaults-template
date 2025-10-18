@@ -1,0 +1,33 @@
+# 一度、すべてを無視
+*
+!*/
+
+# 許可リスト(ホワイトリスト)
+!.git/*
+!.gitignore
+!.gitattributes
+!*.js
+!*.sh
+!*.json
+!*.toml
+!*.yml
+!*.yaml
+!*.md
+!*.txt
+!*.csv
+!*.svg
+!*.pdf
+
+# Visual Studio Code
+# https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# 除外リスト
+node_modules
+.obsidian*/graph.json
+.obsidian*/workspace*.json

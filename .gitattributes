@@ -1,0 +1,23 @@
+# --- 改行コードの統一とテキストファイルの定義 ---
+# 改行コードの自動変換設定を無効化し、LF (Line Feed) に統一
+# 全てのテキストファイルはコミット時にLFに変換される
+* text=auto eol=lf
+
+# MarkdownファイルとJSONファイル（Obsidian設定ファイル）もLFに統一
+*.md text eol=lf
+*.json text eol=lf
+
+# --- シンボリックリンクの属性無効化 ---
+# core.symlinks=falseの意図をリポジトリ全体に適用
+# Gitはシンボリックリンクを通常のテキストファイルとして扱い続ける
+* -core.symlinks
+
+# --- バイナリファイルの定義 ---
+# 画像、PDF、音声などのバイナリファイルは、改行コード変換の対象外とする
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.pdf binary
+*.webp binary
