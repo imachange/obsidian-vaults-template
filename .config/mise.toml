@@ -1,0 +1,6 @@
+[tools]
+node = "latest"
+pnpm = "latest"
+
+[hooks]
+postinstall = ["pnpm install"]
