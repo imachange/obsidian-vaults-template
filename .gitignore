@@ -9,6 +9,7 @@
 !*.js
 !*.sh
 !*.json
+!*.css
 !*.toml
 !*.yml
 !*.yaml
@@ -16,6 +17,11 @@
 !*.txt
 !*.csv
 !*.svg
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.webp
 !*.pdf
 
 # Visual Studio Code
