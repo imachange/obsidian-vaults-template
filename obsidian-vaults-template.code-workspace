@@ -3,9 +3,8 @@
 		{
 			"path": "."
 		},
-		{
-			"path": "../../../../Desktop/rainbow"
-		}
+		// Add additional folder paths here as needed, e.g.:
+		// { "path": "/path/to/your/folder" }
 	],
 	"settings": {}
 }
