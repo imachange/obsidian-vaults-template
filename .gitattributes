@@ -1,0 +1,51 @@
+# --- 改行コード設定 ---
+# 全てのファイルを対象に、Gitに改行コードの自動処理（LFに統一）を許可する
+* text=auto
+
+# シェルスクリプト、Python、JSファイルはLFを強制（Node.js環境での確実性向上）
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+
+# --- 画像・メディア・バイナリファイル設定（変換を無効化） ---
+# Vaultに格納される可能性のある画像、ドキュメント、実行ファイルを網羅
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.webp binary
+*.tif binary
+
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+*.zip binary
+*.tar binary
+*.gz binary
+*.mp3 binary
+*.mp4 binary
+*.mov binary
+*.exe binary
+*.dll binary
+*.node binary # Node.jsのネイティブアドオン
+
+# --- クロスプラットフォーム互換性設定 ---
+# ファイルモード（実行可能フラグ: +x）の変更を追跡しない
+# Windows環境でのパーミッション変更によるノイズを防ぐ
+* -executable
