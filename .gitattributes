@@ -43,6 +43,7 @@
 *.mov binary
 *.exe binary
 *.dll binary
+*.node binary # Node.jsのネイティブアドオン
 
 # --- クロスプラットフォーム互換性設定 ---
 # ファイルモード（実行可能フラグ: +x）の変更を追跡しない
