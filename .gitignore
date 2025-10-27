@@ -1,0 +1,30 @@
+*
+!*/
+
+!.git/*
+!.gitignore
+!.gitattributes
+!*.c
+!*.cpp
+!*.h
+!*.js
+!*.py
+!*.sh
+!*.json
+!*.md
+!*.txt
+!*.tsv
+!*.csv
+!*.svg
+!*.pdf
+
+# Visual Studio Code settings
+# https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+*obsidian*/workspace*.json
